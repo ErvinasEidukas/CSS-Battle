@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+}
+
+header {
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0;
+}
+
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.title {
+    text-align: center;
+    opacity: 0.8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.frame {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border: none;
+    background: white;
+    display: block;
+    transform: translateZ(0);
+}
