@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<style>
+    body { margin: 0;}
+    .wrapper {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        background: #62306D;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 50px;
+    }
+    .wrapper>div {
+        background: #F7EC7D;
+        border-radius: 0 0 50% 50%
+    }
+    .wrapper > div:nth-child(odd) {
+        background: #62306D;
+    }
+    .wrapper > div:nth-child(2) {
+        transform: rotate(180deg);
+    }
+</style>

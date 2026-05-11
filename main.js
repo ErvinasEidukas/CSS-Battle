@@ -1,6 +1,11 @@
 const challenges = [
     { name: "#1. Simply Square", file: "challenges/challenge1.html" },
     { name: "#2. Carrom", file: "challenges/challenge2.html" },
+    { name: "#3. Push Button", file: "challenges/challenge3.html" },
+    { name: "#4. Ups n Downs", file: "challenges/challenge4.html" },
+    { name: "#5. Acid Rain", file: "challenges/challenge5.html" },
+    { name: "#6. Missing Slice", file: "challenges/challenge6.html" },
+    { name: "#7. Leafy Trail", file: "challenges/challenge7.html" },
 ];
 
 function wrapCode(code) {
