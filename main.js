@@ -6,6 +6,7 @@ const challenges = [
     { name: "#5. Acid Rain", file: "challenges/challenge5.html" },
     { name: "#6. Missing Slice", file: "challenges/challenge6.html" },
     { name: "#7. Leafy Trail", file: "challenges/challenge7.html" },
+    { name: "#8. Forking Crazy", file: "challenges/challenge8.html" },
 ];
 
 function wrapCode(code) {
