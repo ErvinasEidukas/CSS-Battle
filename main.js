@@ -7,6 +7,10 @@ const challenges = [
     { name: "#6. Missing Slice", file: "challenges/challenge6.html" },
     { name: "#7. Leafy Trail", file: "challenges/challenge7.html" },
     { name: "#8. Forking Crazy", file: "challenges/challenge8.html" },
+    { name: "#9. Tesseract", file: "challenges/challenge9.html" },
+    { name: "#10. Cloaked Spirits", file: "challenges/challenge10.html" },
+    { name: "#11. Eye of Sauron", file: "challenges/challenge11.html" },
+    { name: "#12. Wiggly Moustache", file: "challenges/challenge12.html" },
 ];
 
 function wrapCode(code) {
