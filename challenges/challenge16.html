@@ -1,0 +1,43 @@
+<div class="wrapper">
+    <div class="square"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+</div>
+
+<style>
+    body { margin: 0;}
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: #0B2429;
+    }
+    .square {
+        width: 200px;
+        height: 200px;
+        background: #998235;
+        position: absolute;
+        transform: rotate(45deg);
+        border-radius: 50% 0;
+    }
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        background: #0B2429;
+    }
+    .wrapper > div:nth-child(2) {
+        height: 180px;
+    }
+    .wrapper > div:nth-child(3) {
+        height: 140px;
+        background: #F3AC3C;
+    }
+    .wrapper > div:nth-child(4) {
+        height: 50px;
+    }
+</style>

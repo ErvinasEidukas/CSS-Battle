@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+</div>
+
+<style>
+    body { margin: 0;}
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: #09042A;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        background: transparent;
+    }    
+    .c1 {
+        transform: translate(-50px);
+        box-shadow: 100px 0px #E78481;
+    }
+    .c2 {
+        transform: translate(50px);
+        box-shadow: -100px 0px #7B3F61;
+    }
+</style>
