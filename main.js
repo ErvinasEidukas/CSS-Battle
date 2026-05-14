@@ -17,6 +17,8 @@ const challenges = [
     { name: "#16. Eye of the Tiger", file: "challenges/challenge16.html" },
     { name: "#17. Fidget Spinner", file: "challenges/challenge17.html" },
     { name: "#18. Matrix", file: "challenges/challenge18.html" },
+    { name: "#19. Cube", file: "challenges/challenge19.html" },
+    { name: "#20. Ticket", file: "challenges/challenge20.html" },
 ];
 
 function wrapCode(code) {
