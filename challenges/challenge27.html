@@ -1,0 +1,38 @@
+<div class="wrapper">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+</div>
+
+<style>
+    body { margin: 0;}
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #E38F66;
+    }
+    .circle {
+        box-sizing: border-box; 
+        position: absolute;
+        border-radius: 50%;
+        aspect-ratio: 1 / 1;
+    }
+    .wrapper .circle:nth-child(1) {
+        height: 200px;
+        background: #AA445F;
+    }
+    .wrapper .circle:nth-child(2),
+    .wrapper .circle:nth-child(3) {
+        height: 140px;
+        border: solid 30px #F7EC7D;
+    }
+    .wrapper .circle:nth-child(2) {
+        clip-path: inset(50% 50% 0 0)
+    }
+    .wrapper .circle:nth-child(3) {
+        clip-path: inset(0 0 50% 50%)
+    }
+</style>

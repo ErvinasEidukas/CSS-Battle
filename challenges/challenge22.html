@@ -1,0 +1,35 @@
+<div class="wrapper">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<style>
+    body { margin: 0;}
+    .wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #F5D6B4;
+    }
+    .wrapper > div {
+        position: absolute;
+        background: #D86F45;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+        bottom: 85px;
+    }
+    .wrapper > div:nth-child(1) {
+        bottom: 115px;
+        right: 120px
+    }
+    .wrapper > div:nth-child(2) {
+        left: 100px
+    }
+    .wrapper > div:nth-child(3) {
+        height: 50px;
+        width: 170px;
+        right: 100px
+    }
+</style>

@@ -19,6 +19,14 @@ const challenges = [
     { name: "#18. Matrix", file: "challenges/challenge18.html" },
     { name: "#19. Cube", file: "challenges/challenge19.html" },
     { name: "#20. Ticket", file: "challenges/challenge20.html" },
+    { name: "#21. SitePoint Logo", file: "challenges/challenge21.html" },
+    { name: "#22. Cloud", file: "challenges/challenge22.html" },
+    { name: "#23. Boxception", file: "challenges/challenge23.html" },
+    { name: "#24. Switches", file: "challenges/challenge24.html" },
+    { name: "#25. Blossom", file: "challenges/challenge25.html" },
+    { name: "#26. Smiley", file: "challenges/challenge26.html" },
+    { name: "#27. Lock Up", file: "challenges/challenge27.html" },
+    { name: "#28. Cups & Balls", file: "challenges/challenge28.html" },
 ];
 
 function wrapCode(code) {
