@@ -29,6 +29,8 @@ const challenges = [
     { name: "#28. Cups & Balls", file: "challenges/challenge28.html" },
     { name: "#29. Suffocate", file: "challenges/challenge29.html" },
     { name: "#30. Horizon", file: "challenges/challenge30.html" },
+    { name: "#31. Equals", file: "challenges/challenge31.html" },
+    { name: "#32. Band-aid", file: "challenges/challenge32.html" },
 ];
 
 function wrapCode(code) {
