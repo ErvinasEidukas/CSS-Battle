@@ -1,0 +1,34 @@
+<div class="wrapper">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<style>
+    body { margin: 0;}
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 25px;
+        padding: 0 25px;
+        box-sizing: border-box;
+        background: #1A4341;
+    }
+    .wrapper > div:nth-child(odd) {
+        grid-row: 2 / 4;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background: #F3AC3C;
+    }
+    .wrapper > div:nth-child(even) {
+        grid-row: 1 / 3;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background: #998235;
+    }
+</style>

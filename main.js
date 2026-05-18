@@ -31,6 +31,15 @@ const challenges = [
     { name: "#30. Horizon", file: "challenges/challenge30.html" },
     { name: "#31. Equals", file: "challenges/challenge31.html" },
     { name: "#32. Band-aid", file: "challenges/challenge32.html" },
+    { name: "#33. Birdie", file: "challenges/challenge33.html" },
+    { name: "#34. Christmas Tree", file: "challenges/challenge34.html" },
+    { name: "#35. Ice Cream", file: "challenges/challenge35.html" },
+    { name: "#36. Interleaved", file: "challenges/challenge36.html" },
+    { name: "#37. Tunnel", file: "challenges/challenge37.html" },
+    { name: "#38. Not Simply Square", file: "challenges/challenge38.html" },
+    { name: "#39. Sunset", file: "challenges/challenge39.html" },
+    { name: "#40. Letter B", file: "challenges/challenge40.html" },
+    { name: "#41. Fox Head", file: "challenges/challenge41.html" },
 ];
 
 function wrapCode(code) {
